@@ -1,0 +1,25 @@
+{
+  "desktop": "C:\\Users\\<你的用户名>\\Desktop",
+  "businessRootName": "业务文件",
+  "otherFolderName": "其他",
+  "hotDays": 2,
+
+  "clients": [
+    { "key": "John Smith",  "folder": "John Smith loan doc" },
+    { "key": "Jane Doe",    "folder": "Jane Doe" },
+    { "key": "Wang Wu",     "folder": "Wang Wu loan doc" }
+  ],
+
+  "businessExtensions":  [".pdf", ".xlsx", ".xls", ".doc", ".docx", ".ppt", ".pptx", ".csv"],
+  "installerExtensions": [".exe", ".msi", ".dmg", ".pkg"],
+  "imageExtensions":     [".png", ".jpg", ".jpeg", ".gif", ".bmp"],
+  "neverMoveExtensions": [".lnk", ".url"],
+
+  "exclude": ["desktop.ini", "organize.ps1", "config.json", "undo.ps1", "scanpdf.js"],
+  "excludePrefixes": ["~$"],
+  "enableContentScan": true,
+  "nodeModulesPath": "",
+
+  "foldersToBusiness": [],
+  "keepOnDesktop": []
+}

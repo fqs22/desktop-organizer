@@ -1,0 +1,17 @@
+# 依赖 66MB，不入库，按 package.json 自行 npm install
+node_modules/
+
+# 真实配置含客户姓名，绝不入库；用 config.example.json 复制一份
+config.json
+
+# 撤销日志含本地路径，不入库
+history/
+
+# 调试残留
+_err.txt
+_out.txt
+*.log
+
+# 含真实客户姓名与本机路径，仅本地留存
+需求文档.md
+使用说明.txt
